@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:id="@+id/toolbar"
+android:background="@drawable/background"
+android:layout_height="wrap_content">
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_baseline_menu_24"
+    android:id="@+id/menu"
+
+    android:layout_marginLeft="0dp"/>
+
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="List To Do"
+    android:textColor="#fff"
+    android:textStyle="bold"
+    android:id="@+id/mainTitle"
+
+    android:layout_gravity="center_horizontal"
+
+    android:textSize="16dp"
+    android:layout_marginLeft="0dp"/>
+
+
+
+
+
+</androidx.appcompat.widget.Toolbar>
